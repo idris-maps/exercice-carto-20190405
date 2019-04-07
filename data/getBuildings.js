@@ -1,0 +1,1 @@
+// ce fichier doit générer un fichier buildings.json
