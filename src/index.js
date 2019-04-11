@@ -1,3 +1,4 @@
+
 import {
   select,
   geoMercator,
@@ -9,6 +10,10 @@ import {
 } from './config'
 import drawRoads from './drawRoads'
 import drawAtm from './drawAtm'
+import drawTrees from './drawTrees'
+import drawBuildings from './drawBuildings'
+//test
+
 
 const body = select(document.body)
 const svg = body.append('svg')
@@ -23,3 +28,5 @@ const pathCreator = geoPath().projection(projection)
 
 drawRoads(svg, pathCreator)
 drawAtm(svg, projection)
+drawTrees(svg,projection)
+drawBuildings(svg,pathCreator)
