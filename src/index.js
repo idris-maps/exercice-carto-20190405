@@ -12,6 +12,7 @@ import drawRoads from './drawRoads'
 import drawAtm from './drawAtm'
 import drawTrees from './drawTrees'
 import drawBuildings from './drawBuildings'
+//test
 
 
 const body = select(document.body)
